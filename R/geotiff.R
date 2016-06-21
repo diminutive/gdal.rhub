@@ -9,7 +9,7 @@
 #' @examples
 #' geotiff()
 geotiff <- function() {
-  fpath <- system.file("extdata", "groups.h5", package = "hdf5.rhub")
+  fpath <- system.file("extdata", "float64.tif", package = "gdal.rhub")
   con <- try(rgdal::GDAL.open(fpath))
   retclass <- as.character(class(con))
   if (!inherits(con, "try-error")) rgdal::GDAL.close(con)

@@ -1,4 +1,4 @@
 library(testthat)
-library(hdf5.rhub)
+library(gdal.rhub)
 
-test_check("hdf5.rhub")
+test_check("gdal.rhub")
