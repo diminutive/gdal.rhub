@@ -1,0 +1,14 @@
+Package: gdal.rhub
+Type: Package
+Title: Test for ability to read via GDAL
+Version: 0.1.0
+Authors@R: person("Michael D.","Sumner", role = c("aut", "cre"), email = "mdsumner@gmail.com")
+Description: Installs an example file and attempts to read it.
+Imports:
+    rgdal
+License: GPL-3
+LazyData: TRUE
+Suggests:
+    testthat
+SystemRequirements: gdal-bin
+RoxygenNote: 5.0.1
